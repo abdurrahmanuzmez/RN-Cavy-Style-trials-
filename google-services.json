@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "173826682960",
+    "firebase_url": "https://kidsuppdemo.firebaseio.com",
+    "project_id": "kidsuppdemo",
+    "storage_bucket": "kidsuppdemo.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:173826682960:android:d98575ac07de2e169a2155",
+        "android_client_info": {
+          "package_name": "com.demokidsup.firebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "173826682960-u8qvp18g86pt5rrmjugjv97tcb7t4sri.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBdf59_LBSAXfJI4JUrRiPCYdaFvp3W0t0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "173826682960-u8qvp18g86pt5rrmjugjv97tcb7t4sri.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
