@@ -27,6 +27,8 @@
     "android": {
       "package": "com.demokidsup.firebase",
       "googleServicesFile": "./google-services.json"
-    }
+    },
+    "description": "",
+    "githubUrl": "https://github.com/abdurrahmanuzmez/demokidsup"
   }
 }
