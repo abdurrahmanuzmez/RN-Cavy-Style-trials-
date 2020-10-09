@@ -31,12 +31,10 @@ class Home extends React.Component{
 
         return(
             <View style={{flex: 1}}>
-                <Text>ajbdckadın</Text>
 
                 <ScrollView style={{flex: 1}}>
                     <Header/>
                     <SearchInput
-                        //ref={this.props.generateTestHook('Home.SearchInput')}
                         placeholder='search your player'
                         onPress={this.onSearchButtonTouched}
                         onChangeText={this.onChangeSearchQuery}

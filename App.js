@@ -1,19 +1,40 @@
 import { StatusBar } from 'expo-status-bar';
 import React from 'react';
-import { StyleSheet, Text, View } from 'react-native';
+import {AppRegistry, StyleSheet, Text, View } from 'react-native';
 import Index from './src/index'
+
+import {Tester, TestHookStore} from 'cavy';
+
+const testHookStore = new TestHookStore();
+
+import exampleSpec from "./specs/exampleSpec";
 
 export default function App() {
   return (
-      <View style={styles.container}>
-        <Index/>
-          <Text>asdfghjk</Text>
+      <View>
+          <Text>mobil test</Text>
+          <Text>mobil test</Text>
+          <Text>mobil test</Text>
+          <Text>mobil test</Text>
+          <Text>mobil test</Text>
+          <Text>mobil test</Text>
+          <Text>mobil test</Text>
+          <Text>mobil test</Text>
+          <Text>mobil test</Text>
+          <Text>mobil test</Text>
+          <Text>mobil test</Text>
+          <Text>mobil test</Text>
+          <Text>mobil test</Text>
+          <Text>mobil test</Text>
+          <Text>mobil test</Text>
+          <Text>mobil test</Text>
+              <Tester specs={[exampleSpec]} store={testHookStore} waitTime={1000}>
+                      <Index/>
+              </Tester>
+
+
       </View>
   );
 }
 
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-  },
-});
+AppRegistry.registerComponent('blankproject', () => App);

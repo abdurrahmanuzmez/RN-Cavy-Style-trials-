@@ -8,13 +8,14 @@ import {Tester, TestHookStore} from 'cavy';
 const testHookStore = new TestHookStore();
 import React, {Component} from 'react';
 
-import TestingApp from './App';
+import TestingApp2 from './App';
 
-class AppWraper extends Component {
+
+class TestingApp extends Component {
     render() {
         return (
             <Tester specs={[]} store={testHookStore} waitTime={1000}>
-                <TestingApp />
+                <TestingApp2 />
             </Tester>
 
         )
